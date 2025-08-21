@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#container {
+  position: relative;
+  width: 100%;
+  max-width: 100%;   /* limit max size */
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#bg-image {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  transition: width 0.5s ease, height 0.5s ease;
+}
+
+#countDown {
+  position: absolute;
+  color: black;
+  font-size: 8vw;   /* responsive font size */
+  font-weight: bold;
+  text-align: center;
+}
