@@ -24,7 +24,7 @@
 #countDown {
   position: absolute;
   color: black;
-  font-size: 8vw;   /* responsive font size */
+  font-size: 550px;   /* responsive font size */
   font-weight: bold;
   text-align: center;
 }
